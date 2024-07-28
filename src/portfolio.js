@@ -23,7 +23,7 @@ const greeting = {
   username: "Sonu Singh Jatav",
   title: "Hi all, I'm Sonu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience in Backend Development and expert in building Web applications using Java / Spring Boot / JavaScript / Reactjs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience in Backend Development and expert in building Web applications using Java / Spring Boot / JavaScript / React JS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1g_wkOYZfbtfv4MN11fzlynNDRE0h6vR_/view?usp=drivesdk", // Set to empty to hide the button
@@ -153,7 +153,7 @@ const educationInfo = {
     {
       schoolName: "RGPV University , Bhopal",
       logo: require("./assets/images/rgpv image.png"),
-      subHeader: "Bachelor of Tecchnology in Electrical & Electronics Engg.",
+      subHeader: "Bachelor of Technology in Electrical & Electronics Engg.",
       duration: "June 2020 - May 2023",
       desc: "Participated in many web development and coding competitions",
       descBullets: [
@@ -212,35 +212,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Java Developer Intern",
-      company: "Netlink Softwares",
+      role: "Software Engineer",
+      company: "Netlink Software",
       companylogo: require("./assets/images/netlinklogo.jpeg"),
-      date: "July 2022 – October 2022",
-      desc: "Explore Java web development frameworks such as Java EE or Spring Framework (Spring MVC, Spring Boot). Understand the MVC architecture, dependency injection, aspect-oriented programming (AOP), and building RESTful APIs.",
-      descBullets: [
-        "Build Tools and Dependency Management",
-        "Version Control",
-        "Software Development Life Cycle",
-        "IDE Proficiency such as IntelliJ- Idea , Postman , GIT , Bitbucket"
-      ],
+      date: "July 2024 – Present",
+      desc: "Responsible for implementing robust security measures for microservices, including authentication and encryption protocols, and integrating Redis for efficient cache management to enhance application performance. My role involves troubleshooting and resolving complex technical issues, collaborating with business analysts and stakeholders to refine project requirements, and ensuring high software quality through unit and integration testing. I actively participate in code reviews, stay updated with emerging technologies, and adhere to Agile methodologies and organizational coding standards, always keeping the end-user experience at the forefront of my development efforts.",
       color: "#cf734c"
-    },
-    {
-      role: "Java Developer Trainee",
-      company: "Netlink Softwares",
-      companylogo: require("./assets/images/netlinklogo.jpeg"),
-      date: "November 2022 – April 2024",
-      desc: "Worked as full time Java full stack software developer , Write clean, efficient, and maintainable code following coding standards and best practices.Collaborate with team members to design, develop, test, and deploy software solutions.Implement new features, enhancements, and bug fixes based on requirements and specifications.Use version control systems (e.g., Git) to manage code changes and many other framework and libraries. Such as JIRA , KANBAN",
-      color: "#5e9dad"
     },
     {
       role: "Associate Software Engineer",
       company: "Netlink Software",
       companylogo: require("./assets/images/netlinklogo.jpeg"),
-      date: "April 2024 – Present",
-      desc: "Analyze and troubleshoot technical issues, bugs. Work closely with business analysts, product owners, and stakeholders to understand project requirements .Write and execute unit tests, integration test to ensure software quality .Participate in code reviews to identify defects,Stay updated with emerging technologies, and industry trends.Adhere to software development methodologies, such as Agile, Scrum, or Kanban.Follow organizational coding standards, and quality assurance processes . Keep the end-user in mind while developing software solutions.",
+      date: "April 2023 – July 2024",
+      desc: "Analyze and troubleshoot production-grade technical issues and bugs, utilizing expertise in microservices architecture, security protocols, and Redis for cache management. My role involves writing and executing unit and integration tests to ensure software quality, performing complex database queries, and using JPA for efficient data persistence. I actively participate in code reviews to identify and fix defects, and stay updated on emerging technologies and industry trends. Adhering to Agile, Scrum, or Kanban methodologies, I follow organizational coding standards and quality assurance processes, always prioritizing the end-user experience in my software development efforts.",
       color: "#49734c"
-    }
+    },
+    {
+      role: "Java Developer Trainee",
+      company: "Netlink Softwares",
+      companylogo: require("./assets/images/netlinklogo.jpeg"),
+      date: "November 2022 – April 2023",
+      desc: "Worked as a full-time Java Full Stack Developer, I specialize in writing clean, efficient, and maintainable code while following best practices. I collaborate on designing, developing, testing, and deploying software solutions, and implement new features, enhancements, and bug fixes. My role includes performing DynamoDB queries, debugging with CloudWatch, and improving code quality using SonarQube. I manage code changes with Git, utilize JIRA and Kanban for project management, and apply frameworks and libraries to ensure high-performance software development.",
+      color: "#5e9dad"
+    } 
+    // ,
+    // {
+    //   role: "Java Developer Intern",
+    //   company: "Netlink Softwares",
+    //   companylogo: require("./assets/images/netlinklogo.jpeg"),
+    //   date: "July 2022 – October 2022",
+    //   desc: "Explore Java web development frameworks such as Java EE and Spring Frameworks ( Spring Boot , Spring MVC). Understand the MVC architecture, dependency injection, Spring Security, and building RESTful APIs.",
+    //   descBullets: [
+    //     "Build Tools and Dependency Management",
+    //     "Version Control",
+    //     "Software Development Life Cycle",
+    //     "IDE Proficiency such as IntelliJ- Idea , Postman , GIT , Bitbucket"
+    //   ],
+    //   color: "#cf734c"
+    // }
   ]
 };
 
@@ -258,6 +267,18 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME PRODUCT'S AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/Blossom.jpeg"),
+      projectName: "Blossom EMR",
+      projectDesc: "Blossom Children's Center is an interdisciplinary clinic specializing in early intervention for children with autism spectrum disorder and special needs . In this project, we developed a comprehensive solution for Blossom's, providing dynamic functionalities for arranging therapy sessions and scheduling appointments for children with mental or physical challenges. I implemented OAuth 2 Spring Security with a microservices architecture for robust role-based access control and developed modules for appointment scheduling, session management, and billing. This solution ensures streamlined operations and secure, efficient management of therapeutic services.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://blossomchildrenscenter.com/"
+        }
+      ]
+    }
+    ,
     {
       image: require("./assets/images/siriusXm.png"),
       projectName: "Sirius XM Connected Vehicle",
@@ -280,18 +301,8 @@ const bigProjects = {
           url: "https://www.siriusxmcvs.com/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/Blossom.jpeg"),
-      projectName: "Blossom EMR",
-      projectDesc: "Blossom Children's Center is an interdisciplinary clinic specialized in early intervention for children with autism spectrum disorder and special needs. Our team includes BCBAs, Speech Language Pathologists and Occupational Therapists. In this project we have developed the product for Blossom's and provide the dynamic functionality of arranging session's for the children's who are mentally or physically challanged , I developed the latest OAUTH 2 spring securities with microservice architecture and and authorization for role based access , and many other module's",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://blossomchildrenscenter.com/"
-        }
-      ]
     }
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -314,7 +325,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "http://ude.my/UC-c3ac113e-7707-4be3-8023-db3fa0ae7ded"
         }
         // ,
         // {
