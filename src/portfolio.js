@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience in Backend Development and expert in building Web applications using Java / Spring Boot / JavaScript / React JS and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1g_wkOYZfbtfv4MN11fzlynNDRE0h6vR_/view?usp=drivesdk", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1scj8GnSXRy3ghK5xsZT0zvP5wZUfkg-9/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
