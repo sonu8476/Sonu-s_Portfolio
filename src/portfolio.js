@@ -23,10 +23,10 @@ const greeting = {
   username: "Sonu Singh Jatav",
   title: "Hi all, I'm Sonu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience in Backend Development and expert in building Web applications using Java / Spring Boot / JavaScript / React JS and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience in Backend Development and expert in building Scalable Web applications using Java / Spring Boot / React JS and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1scj8GnSXRy3ghK5xsZT0zvP5wZUfkg-9/view?usp=drivesdk", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wkoBUGVon7116Zjj7ciCvTkHWKKlXKPC/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,14 +50,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do ?",
-  subTitle: "CRAZY FULL STACK JAVA DEVELOPER HAVING PROFIENCY IN WRITING OPTIMIZED CODE , DB QUERIES FOR DEVELOPING HIGH PERFORMANCE REST APIS AND REUSABLE CLEAN CODE FOR UI DEVELOPMENT .",
+  subTitle: "CRAZY FULL STACK JAVA DEVELOPER HAVING EXPERTY IN MICROSERVICE ARCHITECHTURE , OAUTH 2 , SQL / NO SQL DATABASES AND AWS .",
   skills: [
+    emoji(
+      "⚡ Develop secured aplication using OAuth2 / OIDC"
+    ),
     emoji(
       "⚡ Develop highly optimized Back end for your web applications"
     ),
     emoji("⚡ Microservice Architechture development"),
     emoji(
-      "⚡ Integration of third party services such as OIDC / AWS / OAuth2"
+      "⚡ Integration of third party services such as Genesys / Mail Services"
+    ),
+    emoji(
+      "⚡ Integration of Redis for efficient Cache management"
+    ),
+    emoji(
+      "⚡ User friendly and fast rendering UI using React"
     )
   ],
 
@@ -179,7 +188,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "API Design", //Insert stack or technology you have experience in
+      Stack: "System Design", //Insert stack or technology you have experience in
       progressPercentage: "97%" //Insert relative proficiency in percentage
     },
     {
@@ -191,17 +200,22 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
+      Stack: "Security",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Problem Solving",
+      progressPercentage: "95%"
+    },
+    {
       Stack: "UI Development",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Deployment",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "95%"
+      progressPercentage: "80%"
     }
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -216,7 +230,7 @@ const workExperiences = {
       company: "Netlink Software",
       companylogo: require("./assets/images/netlinklogo.jpeg"),
       date: "July 2024 – Present",
-      desc: "Responsible for implementing robust security measures for microservices, including authentication and encryption protocols, and integrating Redis for efficient cache management to enhance application performance. My role involves troubleshooting and resolving complex technical issues, collaborating with business analysts and stakeholders to refine project requirements, and ensuring high software quality through unit and integration testing. I actively participate in code reviews, stay updated with emerging technologies, and adhere to Agile methodologies and organizational coding standards, always keeping the end-user experience at the forefront of my development efforts.",
+      desc: "Responsible for implementing robust security measures for microservices, including authentication and encryption protocols, integrating Redis for efficient cache management to enhance application performance and  Microsoft Graph API to send emails via Azure Mail . My role involves troubleshooting and resolving complex technical issues, collaborating with business analysts and stakeholders to refine project requirements, and ensuring high software quality through unit and integration testing. I actively participate in code reviews, stay updated with emerging technologies, and adhere to Agile methodologies and organizational coding standards, always keeping the end-user experience at the forefront of my development efforts.",
       color: "#cf734c"
     },
     {
